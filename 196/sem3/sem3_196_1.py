@@ -12,6 +12,8 @@ if abs(a - b) < eps:  # not a == b
 
 print('{0:.25f} == 0.2'.format(a))
 
+print("0.2 = {0:.25f} 0.3={1:.30f}".format(0.2, 0.3))
+
 
 import math
 
